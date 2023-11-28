@@ -1,0 +1,70 @@
+.center-vertically {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-item-task {
+    padding: 15px;
+    margin: 8px 8px;
+    border-radius: 10px;
+}
+
+.container-buttons-management {
+    gap: 2px;
+}
+
+.container-include-task {
+    padding: 15px;
+    color: #fff important;
+    margin-bottom: 5px;
+}
+
+.container-app {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+form,
+input,
+label,
+p {
+    color: white;
+}
+
+input~label {
+    color: white;
+}
+
+.bg-gray-lite {
+    background-color: rgba(0, 0, 0, 0.153)
+}
+
+.form-control[disabled] {
+    color: #bebebe !important;
+}
+
+body {
+    background-color: #182b3a;
+    background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%);
+
+}
+
+::placeholder {
+    color: #fff !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+::-ms-input-placeholder {
+    /* Edge 12 -18 */
+    color: #fff !important;
+}
+
+.disabled-input[disabled] {
+    color: #fff !important;
+}
+
+#tarefa_input {
+    box-shadow:  0 1px 0 #fff !important;
+}
